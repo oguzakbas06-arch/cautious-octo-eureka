@@ -263,10 +263,14 @@ p {
 
 @media (max-width: 992px) {
   h1 { font-size: 3.5rem; }
-  .hero-layout { flex-direction: column; }
+  .hero-layout { flex-direction: column; text-align: center; }
+  .hero-layout p { margin: 0 auto 40px auto; }
+  .mockup-wrapper { transform: scale(0.8); transform-origin: top center; height: 400px !important; margin-top: 20px; width: 100%; display: flex; justify-content: center; }
 }
 
 @media (max-width: 768px) {
   h1 { font-size: 2.8rem; }
   h2 { font-size: 2rem; }
+  .hide-on-mobile { display: none !important; }
+  .mockup-wrapper { transform: scale(0.55); height: 300px !important; margin-left: -10%; }
 }

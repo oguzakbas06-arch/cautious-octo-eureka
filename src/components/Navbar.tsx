@@ -10,7 +10,7 @@ export default function Navbar() {
           </div>
           Buddy Live
         </Link>
-        <div style={{ display: 'flex', gap: '32px', fontWeight: 500, alignItems: 'center' }}>
+        <div className="hide-on-mobile" style={{ display: 'flex', gap: '32px', fontWeight: 500, alignItems: 'center' }}>
           <Link to="/" style={{ opacity: 1 }}>Home</Link>
           <a href="#" style={{ opacity: 0.8 }}>Explore</a>
           <a href="#" style={{ opacity: 0.8 }}>Go Live</a>

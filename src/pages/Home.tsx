@@ -35,7 +35,7 @@ export default function Home() {
           </div>
 
           {/* Right Mockup Content - Custom Glassmorphism UI */}
-          <div style={{ flex: '1 1 600px', position: 'relative', height: '500px' }} className="animate-fade-in-up delay-200">
+          <div className="mockup-wrapper animate-fade-in-up delay-200" style={{ flex: '1 1 600px', position: 'relative', height: '500px' }}>
             
             {/* Main Video Panel */}
             <div className="glass-panel glass-panel-hover float-1" style={{ position: 'absolute', top: '20px', left: '80px', width: '380px', height: '340px', padding: '16px', display: 'flex', flexDirection: 'column' }}>
