@@ -50,7 +50,7 @@ export default function Home() {
               
               <div style={{ flex: 1, background: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)', borderRadius: '16px', position: 'relative', overflow: 'hidden' }}>
                 {/* Mock Video Placeholder */}
-                <img src="https://images.unsplash.com/photo-1516280440502-61406d203912?w=500&h=400&fit=crop" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.9 }} alt="Streamer" />
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=500&h=400" style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.9, backgroundColor: '#2d3748' }} alt="Stream" onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1616530940355-351fabd9524b?auto=format&fit=crop&w=500&h=400' }} />
                 
                 {/* Overlay Elements */}
                 <div style={{ position: 'absolute', top: '12px', left: '12px', display: 'flex', alignItems: 'center', gap: '8px', background: 'rgba(0,0,0,0.4)', padding: '6px 12px', borderRadius: '100px', backdropFilter: 'blur(10px)' }}>
