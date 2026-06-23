@@ -38,7 +38,7 @@ export default function Home() {
           <div className="mockup-wrapper animate-fade-in-up delay-200" style={{ flex: '1 1 600px', position: 'relative', height: '500px' }}>
             
             {/* Main Video Panel */}
-            <div className="glass-panel glass-panel-hover float-1" style={{ position: 'absolute', top: '20px', left: '80px', width: '380px', height: '340px', padding: '16px', display: 'flex', flexDirection: 'column' }}>
+            <div className="glass-panel glass-panel-hover float-1 main-video-panel" style={{ position: 'absolute', top: '20px', left: '80px', width: '380px', height: '340px', padding: '16px', display: 'flex', flexDirection: 'column' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
                 <span style={{ fontSize: '0.9rem', fontWeight: 500 }}>Live Stream</span>
                 <div style={{ display: 'flex', gap: '8px' }}>
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
 
             {/* Current Streamers List */}
-            <div className="glass-panel float-2" style={{ position: 'absolute', top: '0px', right: '0px', width: '220px', padding: '16px' }}>
+            <div className="glass-panel float-2 hide-on-mobile" style={{ position: 'absolute', top: '0px', right: '0px', width: '220px', padding: '16px' }}>
               <div style={{ fontSize: '0.8rem', fontWeight: 500, marginBottom: '12px' }}>Current Streamers</div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 {[
@@ -106,7 +106,7 @@ export default function Home() {
             </div>
 
             {/* Leaderboard Panel */}
-            <div className="glass-panel float-3" style={{ position: 'absolute', bottom: '60px', right: '10px', width: '220px', padding: '16px' }}>
+            <div className="glass-panel float-3 hide-on-mobile" style={{ position: 'absolute', bottom: '60px', right: '10px', width: '220px', padding: '16px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
                 <span style={{ fontSize: '0.8rem', fontWeight: 500 }}>Leaderboard</span>
                 <span style={{ letterSpacing: '2px', lineHeight: '0.5' }}>...</span>
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
 
             {/* Live Reactions Dock */}
-            <div className="glass-panel float-2" style={{ position: 'absolute', bottom: '80px', left: '160px', padding: '12px 20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <div className="glass-panel float-2 hide-on-mobile" style={{ position: 'absolute', bottom: '80px', left: '160px', padding: '12px 20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <span style={{ fontSize: '0.75rem', fontWeight: 500 }}>Live Reactions</span>
               <div style={{ display: 'flex', gap: '12px', fontSize: '1.2rem' }}>
                 <span style={{ cursor: 'pointer', transition: 'transform 0.2s' }}>❤️</span>
@@ -140,22 +140,22 @@ export default function Home() {
             </div>
 
             {/* Floating Profile */}
-            <div className="glass-panel float-1" style={{ position: 'absolute', bottom: '130px', left: '20px', padding: '12px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
+            <div className="glass-panel float-1 hide-on-mobile" style={{ position: 'absolute', bottom: '130px', left: '20px', padding: '12px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px' }}>
               <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" className="avatar" alt="Jane Doe" />
               <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>Jane Doe</div>
               <div style={{ fontSize: '0.7rem', opacity: 0.7 }}>Profile</div>
             </div>
 
             {/* Small Floating Icons */}
-            <div className="glass-panel float-3" style={{ position: 'absolute', top: '150px', left: '30px', padding: '10px', borderRadius: '16px' }}>
+            <div className="glass-panel float-3 hide-on-mobile" style={{ position: 'absolute', top: '150px', left: '30px', padding: '10px', borderRadius: '16px' }}>
               <Users size={20} />
             </div>
-            <div className="glass-panel float-2" style={{ position: 'absolute', top: '220px', left: '10px', padding: '8px 12px', borderRadius: '100px', display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.7rem' }}>
+            <div className="glass-panel float-2 hide-on-mobile" style={{ position: 'absolute', top: '220px', left: '10px', padding: '8px 12px', borderRadius: '100px', display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.7rem' }}>
                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" style={{ width: '16px', height: '16px', borderRadius: '50%' }} />
                <span>2K</span>
                <span style={{ color: '#ff3b30' }}>❤️ 30</span>
             </div>
-            <div className="glass-panel float-1" style={{ position: 'absolute', top: '260px', left: '50px', padding: '10px', borderRadius: '16px' }}>
+            <div className="glass-panel float-1 hide-on-mobile" style={{ position: 'absolute', top: '260px', left: '50px', padding: '10px', borderRadius: '16px' }}>
               <MessageSquare size={16} />
             </div>
 
