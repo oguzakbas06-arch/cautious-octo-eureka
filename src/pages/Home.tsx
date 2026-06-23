@@ -1,4 +1,4 @@
-import { Play, Wifi, Video, MessageSquare, Calendar } from 'lucide-react';
+import { Play, Wifi, Video, MessageSquare, Calendar, Users } from 'lucide-react';
 
 export default function Home() {
   return (
