@@ -11,6 +11,16 @@ export default function TermsOfService() {
             Bu Kullanıcı Sözleşmesi ("Sözleşme"), Buddy Live ("uygulama", "biz") hizmetlerini kullanım şartlarınızı belirler. Uygulamayı indirerek, kurarak veya kullanarak bu Sözleşme'yi kabul etmiş sayılırsınız.
           </p>
 
+          <div style={{ background: 'rgba(239, 68, 68, 0.15)', borderLeft: '4px solid #ef4444', padding: '16px 20px', borderRadius: '0 8px 8px 0', margin: '12px 0' }}>
+            <h3 style={{ color: '#fecaca', marginTop: 0, marginBottom: '8px', fontSize: '1.15rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <span style={{ background: '#ef4444', color: 'white', padding: '2px 6px', borderRadius: '4px', fontSize: '0.85rem', fontWeight: 'bold' }}>18+</span> 
+              Yaş Sınırı ve Reşit Olma Beyanı
+            </h3>
+            <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.5' }}>
+              Platformumuzu kullanabilmek için <strong>en az 18 yaşında</strong> olmanız zorunludur. Uygulamayı kullanarak 18 yaşından büyük olduğunuzu beyan ve taahhüt edersiniz. 18 yaşından küçük olduğu tespit edilen kullanıcıların hesapları derhal kapatılacaktır.
+            </p>
+          </div>
+
           <h3>1. Hizmet Kullanımı</h3>
           <p>
             Uygulamamızı kullanarak aşağıdaki kurallara uymayı kabul edersiniz:
