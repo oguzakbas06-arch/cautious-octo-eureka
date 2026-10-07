@@ -27,7 +27,7 @@ export default function Home() {
             </p>
 
             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-              <a href="#" className="btn-primary">
+              <a href="https://play.google.com/store/apps/details?id=com.buddylive.official" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <Play size={24} fill="currentColor" />
                 <div style={{ textAlign: 'left', lineHeight: '1.2' }}>
                   <div style={{ fontSize: '0.7rem', fontWeight: 500, opacity: 0.8 }}>HEMEN İNDİR</div>
