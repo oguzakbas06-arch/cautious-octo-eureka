@@ -43,6 +43,16 @@ export default function Home() {
                 </div>
               </a>
             </div>
+
+            {/* 18+ Uyari Alani (Reklam Uyumlulugu Icin) */}
+            <div style={{ marginTop: '28px', display: 'flex', alignItems: 'center', gap: '14px', background: 'rgba(239, 68, 68, 0.15)', border: '1px solid rgba(239, 68, 68, 0.4)', padding: '14px 24px', borderRadius: '16px', width: 'fit-content', boxShadow: '0 4px 20px rgba(239, 68, 68, 0.1)' }}>
+              <div style={{ background: '#ef4444', color: 'white', fontWeight: '900', borderRadius: '8px', padding: '6px 12px', fontSize: '1.1rem', letterSpacing: '1px', boxShadow: '0 2px 10px rgba(239, 68, 68, 0.4)' }}>18+</div>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <span style={{ fontSize: '1rem', color: '#fecaca', fontWeight: 600 }}>Yaş Sınırı Bildirimi</span>
+                <span style={{ fontSize: '0.85rem', color: '#fca5a5', opacity: 0.9 }}>Bu platform sadece 18 yaş ve üzeri kullanıcılar içindir.</span>
+              </div>
+            </div>
+
           </div>
 
           {/* Right Mockup Content */}
